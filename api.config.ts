@@ -27,8 +27,6 @@ const config: PlaywrightTestConfig = {
         },
     ],
     reporter: [
-        ['list'],
-        ['json', {  outputFile: 'test-results.json' }],
         ['html', { open: 'never' }]
       ],
 
