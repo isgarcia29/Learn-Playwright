@@ -29,7 +29,7 @@ test.describe.parallel("API Testing", () => {
         const responseBody = JSON.parse(await response.text())
 
         expect(response.status()).toBe(201)
-        expect(responseBody.id).toBe('1000')
+        expect(responseBody.id).toBe(1000)
         expect(responseBody.name).toBe('Israel')
         expect(responseBody.job).toBe('QA')
         expect(responseBody.createdAt).toBeTruthy()
