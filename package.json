@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tests:e2e": "playwright test --config=e2e.config.ts --project=Chromium",
+    "tests:func": "playwright test --config=e2e.config.ts --project=Chromium --headed",
     "tests:e2eFirefox": "playwright test --config=e2e.config.ts --project=Firefox",
     "tests:api": "playwright test --config=api.config.ts --project=Chromium",
     "tests:apiReport": "playwright test --config=api.config.ts --project=Chromium --reporter=html",
