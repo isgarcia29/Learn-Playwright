@@ -9,7 +9,8 @@
     "tests:e2eFirefox": "playwright test --config=e2e.config.ts --project=Firefox",
     "tests:api": "playwright test --config=api.config.ts --project=Chromium",
     "tests:apiReport": "playwright test --config=api.config.ts --project=Chromium --reporter=html",
-    "tests:apiReportFirefox": "playwright test --config=api.config.ts --project=Firefox --reporter=html"
+    "tests:apiReportFirefox": "playwright test --config=api.config.ts --project=Firefox --reporter=html",
+    "tests:all": "playwright test --config=all.config.ts --project=Chromium"
   },
   "author": "Israel Garcia",
   "license": "ISC",
