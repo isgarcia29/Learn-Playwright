@@ -13,7 +13,7 @@ test.describe.parallel("API Testing", () => {
         expect(responseBody.data.email).toBe('janet.weaver@reqres.in')
         expect(responseBody.support.text).toBe('To keep ReqRes free, contributions towards server costs are appreciated!')
 
-        console.log(responseBody)   
+        //console.log(responseBody)   
     })
 
     test("Simple API Test POST Request Success", async ({request}) => {
