@@ -13,7 +13,7 @@ test.describe.parallel("API Testing", () => {
         expect(responseBody.data.email).toBe('janet.weaver@reqres.in')
         expect(responseBody.support.text).toBe('To keep ReqRes free, contributions towards server costs are appreciated!')
 
-        console.log(responseBody)   
+        //console.log(responseBody)   
     })
 
     test("Simple API Test POST Request Success", async ({request}) => {
@@ -50,7 +50,7 @@ test.describe.parallel("API Testing", () => {
         expect(responseBody.error).toBe('Missing password')
 
 
-        console.log(responseBody)
+        //console.log(responseBody)
     })
 
     test("Simple API Test PUT Request Success", async ({request}) => {
@@ -69,7 +69,7 @@ test.describe.parallel("API Testing", () => {
         expect(responseBody.job).toBe('new job')
         expect(responseBody.updatedAt).toBeTruthy()
 
-        console.log(responseBody)
+        //console.log(responseBody)
     })
 
     test("Simple API Delayed response", async ({request}) => {
@@ -85,7 +85,7 @@ test.describe.parallel("API Testing", () => {
 
         expect(response.status()).toBe(200)
 
-        console.log(responseBody)   
+        //console.log(responseBody)   
 
     })
 
@@ -97,7 +97,7 @@ test.describe.parallel("API Testing", () => {
 
         expect(response.status()).toBe(200)
 
-        console.log(responseBody)   
+        //console.log(responseBody)   
 
     })
 
@@ -109,7 +109,7 @@ test.describe.parallel("API Testing", () => {
 
         expect(response.status()).toBe(200)
 
-        console.log(responseBody)   
+        //console.log(responseBody)   
 
     })
 
